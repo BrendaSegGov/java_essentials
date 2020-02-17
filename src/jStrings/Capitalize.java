@@ -9,7 +9,7 @@ public class Capitalize {
 		String s = Input.get_string();
 	    if (s != null)
 	    {
-	        for (int i = 0, n = s.length(); i < n; i++)
+	        for (int i = 0, n = s.length(); i < n; i++)//porque incrementa i
 	        {
 	            if (s.charAt(i) >= 'a' && s.charAt(i) <= 'z')
 	            {

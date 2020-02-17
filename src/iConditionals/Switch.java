@@ -6,6 +6,7 @@ public class Switch {
 
 public static void main(String args[])
 {
+	Input.print("Quieres ir al cine?");
 	char c = Input.get_char();
 	switch (c)
 	{

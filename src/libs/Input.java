@@ -103,6 +103,29 @@ public class Input {
 		}
 		
 	}
+	public static int get_positive_int()
+	{
+	    int n;
+	    do
+	    {
+	    	System.out.print("n is ");
+	        n = Input.get_int();
+	    }
+	    while (n < 1);
+	    return n;
+	}
+	
+	public static int get_negative_int()
+	{
+	    int n;
+	    do
+	    {
+	    	System.out.print("n is ");
+	        n = Input.get_int();
+	    }
+	    while (n >= 0);
+	    return n;
+	}
 
 
 

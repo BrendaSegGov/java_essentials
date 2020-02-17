@@ -8,7 +8,7 @@ public class EjemplosString {
 		String s = "Selenium";
 		Input.print("La palabra " + s + " tiene " + s.length() + " caracteres.\n");
 		
-		Input.print("El primer caracter de la palabra " + s + " es " + s.charAt(0) + "\n");
+		Input.print("El primer caracter de la palabra " + s + " es " + s.charAt(0) + "\n");//chartAt cuenta la posicion de el tamanio de la palabra desde p0
 		
 		Input.print("La palabra " + s + " contiene 'nium'?" + s.contains("nium") + "\n");
 		
@@ -17,7 +17,7 @@ public class EjemplosString {
 		
 		String c = "   Hola    ";
 		Input.print(c + "\n");
-		Input.print(c.trim() + "\n");
+		Input.print(c.trim() + "\n");//elimina espacion en palabras
 		
 		Input.print("Input your name: ");
 		String nombre = Input.get_string();

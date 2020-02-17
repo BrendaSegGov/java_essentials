@@ -13,20 +13,14 @@ public class CicloFor {
 //		}
 //		Input.print("\n");
 		
-		for(int num = 0; num <= 10 ; num += 1) {
-			
+		for(int num = 10; num > 0 ; num--) {
 			Input.print(num);
 			Input.print("  ");
-			
 		}
-		
-		for(int num = 10; num >= 0 ; num--) {
-			
+		for(int num = 10; num > 0 ; num--) {
 			Input.print(num);
 			Input.print("  ");
-			
-		}
-
+	}
 	}
 
 }

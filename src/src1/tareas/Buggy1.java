@@ -16,8 +16,12 @@ public class Buggy1 {
 	    {
 	        Input.print("n is ");
 	        n = Input.get_int();
+	      
+	        if (n>=0) {
+	        	Input.print("Error, Ingresa un dato negativo\n");
+	        }
 	    }
-	    while (n > 0);
+	    while (n >= 0);
 	    return n;
 	}
 }

@@ -1,0 +1,54 @@
+login() {
+  1. abrir navegador
+  2. escribir la url
+  3. dar en enter
+  4. esperar a que cargue la pagina principal
+  5. verificar que se muestran todos los elementos:
+  *ligas del menu
+  *titulo
+  *icono
+  *imagenSinatra
+  *mensajeBienvenida
+  *linkLogin
+  6. click en el link de login
+  7. esperar a que cargue la pagina de login
+  8. verificar que se muestran todos los elementos:
+  * ligas del menu
+  * label de username
+  * textfield de username
+  * label de password
+  * textfield de password
+  * boton de login
+  * link de login
+  9. Ingresamos usuario y password validos en los respectivos campos
+  10.  Click en el boton de login
+  11. esperar a que cargue la pagina principal
+  12. verificar que se muestran todos los elementos:
+  *ligas del menu
+  *titulo
+  *icono
+  *imagenSinatra
+  *mensajeBienvenida
+  *linkLogout
+  *mensaje de bienvenida con el nombre del usuario.
+}
+
+MostrarDetallesDeCancion(){
+login()
+
+13. Click en Song del menu principal
+14. Esperar a que cargue la pagina de Songs
+15. Click en Cancion Ejemplo
+16. Esperar a que cargue la pagina de cancion ejemplo
+17. verificar que se muestran todos los elementos:
+* ligas del menu
+* label de Cancion Ejmeplo
+* label de datos de la cancion
+* Label de duracion de la cancion
+* label de la letra de la cancion
+* Label de likes
+* buton de like
+* link de edit this song
+* boton de delete this song
+* linkde log out
+}
