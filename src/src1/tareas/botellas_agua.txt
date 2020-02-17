@@ -7,3 +7,5 @@ Botellas: 12
 $ ./botellas_agua
 Minutos: 10
 Botellas: 120
+
+

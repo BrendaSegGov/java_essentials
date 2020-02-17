@@ -108,10 +108,15 @@ public class Input {
 	    int n;
 	    do
 	    {
-	    	System.out.print("n is ");
+	    	System.out.print(" ");
 	        n = Input.get_int();
+	        
+	        if (n<0) {
+	        	Input.print("Error, Ingresa un dato positivo\n");
+	        }
 	    }
-	    while (n < 1);
+	    
+	    while (n < 0);
 	    return n;
 	}
 	
@@ -122,6 +127,11 @@ public class Input {
 	    {
 	    	System.out.print("n is ");
 	        n = Input.get_int();
+	        
+	        if (n>=0) {
+	        	Input.print("Error, Ingresa un dato negativo\n");
+	        }
+	        
 	    }
 	    while (n >= 0);
 	    return n;
