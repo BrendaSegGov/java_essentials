@@ -9,12 +9,12 @@ public class InicialesFacil {
 		Input.print("Dame tu nombre");
 		String nombreCompleto = Input.get_string();
 		//Comparacion de caracteres y se checa si es mayuscula
-		
-		for(int posicion = 0; posicion < nombreCompleto.length(); posicion++) {
-			char caracteractual = nombreCompleto.charAt(posicion);
+		String[] nombresIndividuales = nombreCompleto.split(" ");
+		for(int posicion = 0; posicion < nombresIndividuales.length; posicion++) {
+			String nombreActual = nombresIndividuales[posicion];
+			char caracteractual = nombreActual.charAt(0);
 			
-			if (Character.isUpperCase(caracteractual))
-				Input.print(caracteractual);	
+			Input.print(caracteractual);	
 
 
 

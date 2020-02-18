@@ -32,14 +32,17 @@ public class Automovil {
 	//comportamiento
 	public void acelerar() {
 		Input.print("run run\n");
+		velocidadActual= velocidadActual+10;
 	}
 	
 	public void frenar() {
 		Input.print("Screeeeech!\n");
+		velocidadActual = 0;
 	}
 	
 	public void retroceder() {
 		Input.print("piii piii piii piii\n");
+		velocidadActual= velocidadActual-10;
 	}
 	
 	public double getVelocidad() {
