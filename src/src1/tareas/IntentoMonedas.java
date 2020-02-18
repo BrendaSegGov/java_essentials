@@ -13,7 +13,7 @@ public class IntentoMonedas {
 		// Cantidad de monedas de a 10
 		int cant10=0;
 		for(int ops=1;d>0;ops++) {
-		if(d%10>=0) {
+		if(d%10>0) {
 			cant10=1+cant10;
 		}
 		d=d-(cant10*10);
