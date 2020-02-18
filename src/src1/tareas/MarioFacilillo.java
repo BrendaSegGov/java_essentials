@@ -15,7 +15,6 @@ public class MarioFacilillo {
 			
 		}
 	}
-
 	private static void dibujarGatos(int r) {
 		//System.out.println("renglon " + r);
 		int ng= r+1;
