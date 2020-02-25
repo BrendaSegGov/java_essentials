@@ -18,7 +18,12 @@ public class Gato extends Animal {
 	public void moverse() {
 		System.out.print("Brinco de aqui para alla");
 	}
-	
+	public void comer() {
+		System.out.println("Me gustan los ratones!");
+	}
+	public void limpiarse() {
+		System.out.println("Me lami, y escupi bolas de pelo!");
+	}
 	public void ronronear() {
 		System.out.println("trrrr, trrrr");
 	}

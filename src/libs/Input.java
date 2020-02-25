@@ -111,7 +111,7 @@ public class Input {
 	    	System.out.print(" ");
 	        n = Input.get_int();
 	        
-	        if (n<0) {
+	        if (n<=0) {
 	        	Input.print("Error, Ingresa un dato positivo\n");
 	        }
 	    }

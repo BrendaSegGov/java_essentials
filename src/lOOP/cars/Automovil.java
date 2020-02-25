@@ -3,14 +3,15 @@ package lOOP.cars;
 import libs.Input;
 
 public class Automovil {
+	
 	//Atributos
 	
-	String marca;
-	double velocidadActual;
-	double maximaVelocidad;
-	String tipoDeTransmision;
-	int numDePuertas;
-	int numDeLlantas;
+	private String marca;
+	private double velocidadActual;
+	private double maximaVelocidad;
+	private String tipoDeTransmision;
+	private int numDePuertas;
+	private int numDeLlantas;
 	
 	Automovil() {
 		marca = "Ford";
@@ -32,6 +33,11 @@ public class Automovil {
 	//comportamiento
 	public void acelerar() {
 		Input.print("run run\n");
+		if (velocidadActual>maximaVelocidad-10) {
+			velocidadActual=maximaVelocidad;
+		}
+		else
+			
 		velocidadActual= velocidadActual+10;
 	}
 	
@@ -43,6 +49,7 @@ public class Automovil {
 	public void retroceder() {
 		Input.print("piii piii piii piii\n");
 		velocidadActual= velocidadActual-10;
+		//Tarea poner limite al frenado
 	}
 	
 	public double getVelocidad() {

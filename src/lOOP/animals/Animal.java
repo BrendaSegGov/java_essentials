@@ -24,8 +24,14 @@ public class Animal {
 		System.out.println("Me muevo!");
 	}
 	
+	public void comer() {
+		System.out.println("Jum Jum!");
+	}
 	public boolean isEsMascota() {
 		return esMascota;
+	}
+	public void limpiarse() {
+		System.out.println("Ya me banie!");
 	}
 	public void setEsMascota(boolean esMascota) {
 		this.esMascota = esMascota;

@@ -14,7 +14,9 @@ public class Canario extends Animal {
 	public void hablar() {
 		System.out.println("chirp, chirp");
 	}
-
+	public void comer() {
+		System.out.println("Me encanta el alpistle!");
+	}
 	public void moverse() {
 		System.out.println("revoloteo de aqui para alla.");
 	}

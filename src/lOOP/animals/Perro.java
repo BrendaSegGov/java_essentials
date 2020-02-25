@@ -11,13 +11,18 @@ public class Perro extends Animal{
 		super.nombre = "";
 		super.tieneAlas = false;
 		super.puedeVolar = false;
-		
+		this.raza = "Pug";
 	}
 	
 	public void hablar() {
 		System.out.println("Woof, woof");
 	}
-	
+	public void comer() {
+		System.out.println("Me gustan las croquetas");
+	}
+	public void limpiarse() {
+		System.out.println("Ya me banio mi duenio");
+	}
 	public void moverse() {
 		System.out.println("corre, corre");
 	}
